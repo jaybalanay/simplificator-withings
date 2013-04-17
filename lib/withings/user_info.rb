@@ -1,4 +1,4 @@
-class Withings::User
+class Withings::UserInfo
   attr_reader :short_name, :user_id, :birthdate, :fat_method, :first_name, :last_name, :gender, :oauth_token, :oauth_token_secret
 
   def self.authenticate(user_id, oauth_token, oauth_token_secret)
